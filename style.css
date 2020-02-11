@@ -1,0 +1,22 @@
+body {
+    background-color: #ffe2d2;
+}
+
+#myName {
+    width: 100%;
+    color: #fa0e0e;
+    font-weight: bold;
+    font-family: helvetica;
+}
+
+#subHeading {
+    line-height: 0.5;
+}
+
+p {
+    width: 50%;
+}
+
+#profilePhoto {
+    width: 50%;
+}
