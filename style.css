@@ -4,7 +4,7 @@ body {
 }
 
 html {
-    background-color: #fff0d3;  
+    background-color: white;  
 }
 
 #header {
@@ -27,7 +27,7 @@ html {
     font-family: Helvetica;
     font-size: 5vw;
     margin-top: 0px;
-    padding-top: 300px;
+    padding-top: 200px;
 } 
 
 .ContactInfo {
@@ -49,11 +49,30 @@ hr {
 }
 
 #buttonSection {
-    width: 30vw;
-    height: 30vw;
+    margin-right: auto;
+    margin-left: auto;
+    border-spacing: 2vw;
 }
 
 .headerButton {
-    width: 3vw;
-    height: 2vw;
+    width: 15vw;
+    height: 5vw;
+    font-size: 1.5vw;
+    margin: 1vw;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+#aboutMe {
+    font-size: 1vw;
+}
+
+p {
+    padding-left: 3vw;
+    width: 50%;
+}
+
+#aboutMeHeading {
+    text-align: center;
 }
