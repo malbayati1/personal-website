@@ -1,16 +1,28 @@
 <!DOCTYPE html>
 <html>
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+
     <title>
         Muhammad H. Albayati
     </title>
+
+
 </head>
 
 <body>
+    <div id="construction">
+        This personal website is still under construction and is not a final representation.
+        <button>X</button>
+    </div>
+
     <div id="header">
         <h1 id="myName">Muhammad H. Albayati</h1>
         <span class="ContactInfo">Software Engineer | </span>
@@ -22,30 +34,39 @@
 
         <span><button class="headerButton">About Me</button></span>
         <span><button class="headerButton">Projects</button></span>
-        <span><button class="headerButton">Work History</button></span>
+        <span><button class="headerButton">Contact Me</button></span>
 
-        <br>
-
-        <span><button class="headerButton">Education</button></span>
-        <span><button class="headerButton">Skills</button></span>
     </div>
     <div id="aboutMe">
 
         <h2 id="aboutMeHeading">About Me</h2>
 
-        <p>
-            Hello and welcome! My name is Muhammad H. Albayati and I love programming and video games.
-            In fact I love programming and video games so much, I decided to go and study Computer Game Science
-            at the University of California, Irvine. At UCI, I took programming, design, and project classes.
-            I also took on side projects making video games as a designer, programmer, and producer.
-        </p>
+        <table>
+            <tr>
+                <td>
+                    
+                    <p>
+                        Hello and welcome! My name is Muhammad H. Albayati and I love programming and video games.
+                        In fact I love programming and video games so much, I decided to go and study Computer Game Science
+                        at the University of California, Irvine. At UCI, I took programming, design, and project classes.
+                        I also took on side projects making video games as a designer, programmer, and producer.
+                    </p>
+            
+                    <p>
+                        I am currently finishing my last quarter at UCI, while working on my capstone project using the Unity
+                        engine and C# for scripting. When I am not studying or working at either of my two jobs, you can find
+                        me at the gym or socializing with my friends. If you’re looking for a well rounded man that will never
+                        quit to get the job done, look no further.
+                    </p>
+                </td>
+                <td>
+                    <div id="personalPhoto">
+                        <img src="image1.jpeg">
+                    </div>
+                </td>
+            </tr>
+        </table>
 
-        <p>
-            I am currently finishing my last quarter at UCI, while working on my capstone project using the Unity
-            engine and C# for scripting. When I am not studying or working at either of my two jobs, you can find
-            me at the gym or socializing with my friends. If you’re looking for a well rounded man that will never
-            quit to get the job done, look no further.
-        </p>
     </div>
 </body>
 

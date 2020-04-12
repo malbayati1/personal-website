@@ -1,10 +1,29 @@
+html {
+    background-color: white;  
+}
+
+
 body {
     margin: 0px 0px 0px 0px;
     height: 100%;
 }
 
-html {
-    background-color: white;  
+#construction {
+    background-color: red;
+    width: 100%;
+    height: 2vw;
+    color: white;
+    font-size: 1vw;
+    text-align: center;
+}
+
+#construction > button {
+    background-color: transparent;
+    font-size: 1vw;
+    color: white;
+    border: 0px solid transparent;
+    padding-top: 5px;
+    padding-left: 20px;
 }
 
 #header {
@@ -65,14 +84,28 @@ hr {
 }
 
 #aboutMe {
-    font-size: 1vw;
+    font-size: 1.5vw;
+    font-family: sans-serif;
 }
 
 p {
-    padding-left: 3vw;
-    width: 50%;
+    padding-left: 15vw;
+    width: 60%;
 }
 
 #aboutMeHeading {
     text-align: center;
+}
+
+img {
+    width: 40%;
+    
+}
+
+#personalPhoto {
+    display: inline-block;
+    width: 40%;
+    height: 40%;
+    border-radius: 50% 50%;
+    border: 2px solid #006188;
 }
