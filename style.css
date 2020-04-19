@@ -28,10 +28,9 @@ body {
 
 #header {
     margin-top: 0;
-    width: 100%;
+    max-width: 100%;
     height: 1000px;
     text-align: center;
-    /* background-color: #003f86; */
     background-image: url('X9_02_Blurred10.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -84,13 +83,14 @@ hr {
 }
 
 #aboutMe {
-    font-size: 1.5vw;
+    font-size: 1.5rem;
     font-family: sans-serif;
 }
 
 p {
-    padding-left: 15vw;
-    width: 60%;
+    margin-left: 15vw;
+    width: 40%;
+    float: left;
 }
 
 #aboutMeHeading {
@@ -99,13 +99,18 @@ p {
 
 img {
     width: 40%;
-    
 }
 
-#personalPhoto {
-    display: inline-block;
-    width: 40%;
-    height: 40%;
+#personalPhoto { 
+    width: 300px;
+    height: 300px;
     border-radius: 50% 50%;
-    border: 2px solid #006188;
+    border: 7px solid #006188;
+    float: right;
+    background-image: url("image1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    margin-right: 10rem;
+    margin-top: 5rem;
 }
