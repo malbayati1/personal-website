@@ -56,11 +56,6 @@ body {
     padding-bottom: 20px;
 }
 
-#subHeading {
-    line-height: 0.5;
-}
-
-
 hr {
     width: 75%;
     margin-top: 1.5em;
@@ -69,14 +64,14 @@ hr {
 #buttonSection {
     margin-right: auto;
     margin-left: auto;
-    border-spacing: 2vw;
+    border-spacing: 2em;
 }
 
 .headerButton {
-    width: 15vw;
-    height: 5vw;
-    font-size: 1.5vw;
-    margin: 1vw;
+    width: 10em;
+    height: 3em;
+    font-size: 1.5em;
+    margin: 0.5em;
     background-color: transparent;
     color: white;
     border: 2px solid white;
@@ -87,14 +82,14 @@ hr {
     font-family: sans-serif;
 }
 
-p {
-    margin-left: 15vw;
-    width: 40%;
-    float: left;
+#aboutMe > h2 {
+    text-align: center;
 }
 
-#aboutMeHeading {
-    text-align: center;
+p {
+    margin: auto;
+    width: 80%;
+    /* float: left; */
 }
 
 img {
@@ -106,11 +101,34 @@ img {
     height: 300px;
     border-radius: 50% 50%;
     border: 7px solid #006188;
-    float: right;
+    /* float: right; */
     background-image: url("image1.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
-    margin-right: 10rem;
-    margin-top: 5rem;
+    margin: auto;
+}
+
+#projects {
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    background-color: #dadada;
+    width: 100%;
+    /* height: 200px; */
+}
+
+#projects > h2 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#cwc {
+    width: 320px;
+    height: 180px;
+}
+
+#cwc > img {
+    width: 100%;
+    height: 100%;
+    
 }
