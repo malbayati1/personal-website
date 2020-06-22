@@ -20,4 +20,8 @@ $(document).ready(function() {
     //         alert("Please enter a valid email address");aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
     //     }
     // })
+
+    $(".headerButton").click(function() {
+        $('body, html').scrollTop($("#" + this.name).offset().top)
+    });
 });
