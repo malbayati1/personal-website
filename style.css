@@ -46,7 +46,7 @@ body {
     color: white;
     font-weight: bold;
     font-family: Helvetica;
-    font-size: 3.5rem;
+    font-size: 3rem;
 
     margin-top: 0px;
     padding-top: 100px;
@@ -175,7 +175,9 @@ p {
     font-family: sans-serif;
 }
 
-#contactForm > input {
+
+/* This is for the email form to be used when using Node.js
+/* #contactForm > input {
     width: 20%;
     height: 20px;
 }
@@ -209,10 +211,72 @@ p {
     color: white;   
     border-radius: 0px;
     border: 3px solid white;
+} */
+
+@media only screen and (min-width: 530px) {
+    .skill {
+        font-size: 1.5rem;
+    }
+
+    .headerButton {
+
+        margin-left: 3px;
+        margin-right: 3px;
+        display: inline-block;
+        
+    }
+    
 }
 
-#contactMe > p {
-    font-size: 1.5rem;
+@media only screen and (min-width: 768px) {
+    #myName {
+        font-size: 3.5rem;
+    } 
+
+    .skill {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    #personalPhoto { 
+        width: 200px;
+        height: 200px;
+    }
+
+
 }
 
+@media only screen and (min-width: 1080px) {
+    #header {
+        padding-top: 200px;
+        margin-top: 0px;
+        max-width: 100%;
+        height: 1000px;
+    }
 
+    #myName {
+        font-size: 5rem;
+    }
+
+    .skill {
+        font-size: 3rem;
+    }
+
+    .headerButton {
+        width: 200px;
+        height: 75px;
+        font-size: 1.5em;
+    }
+
+    #personalPhoto { 
+        width: 300px;
+        height: 300px;
+    }
+
+    p {
+        font-size: 25px;
+    }
+}
