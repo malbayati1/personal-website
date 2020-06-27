@@ -266,9 +266,12 @@ p {
     }
 
     .headerButton {
-        width: 200px;
+        width: 250px;
         height: 75px;
         font-size: 1.5em;
+        border: 2px white solid;
+        margin-right: 0.5em;
+        margin-left: 0.5em;
     }
 
     #personalPhoto { 
