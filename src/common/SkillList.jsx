@@ -1,12 +1,12 @@
-import styles from "../sections/Skills/SkillsStyles.module.css"
+import styles from "../sections/Skills/SkillsStyles.module.css";
 
-function SkillList({src, skill}) {
+function SkillList({ src, skill }) {
   return (
     <span>
-        <img src={src} alt="Checkmark icon" />
-        <p>{skill}</p>
+      <img src={src} alt="Checkmark icon" />
+      <p>{skill}</p>
     </span>
-  )
+  );
 }
 
-export default SkillList
+export default SkillList;
